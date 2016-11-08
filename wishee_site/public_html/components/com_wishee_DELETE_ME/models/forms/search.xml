@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="search-data" label="Search Fields">
+		<field
+			type="text"
+			name="search_query"
+			label=""
+			size="8"
+			autocomplete="off"
+            autofocus="1"
+			placeholder="Type here what you're looking for..."
+		/>
+	</fieldset>
+    <fieldset name="categories-data" label="Categories" class="fieldset">
+		<field type="checkboxes" name="categories">
+            <option value="Apparel">Apparel</option>
+            <option value="Appliances">Appliances</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Baby">Baby</option>
+            <option value="Beauty">Beauty</option>
+            <option value="Books">Books</option>
+            <option value="Computers">Computers</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Health">Health</option>
+            <option value="Home Improvement">Home Improvement</option>
+            <option value="Home/Garden">Home/Garden</option>
+            <option value="Jewellery">Jewellery</option>
+            <option value="Kindle eBooks">Kindle eBooks</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Lighting">Lighting</option>
+            <option value="Luggage">Luggage</option>
+            <option value="Movies">Movies</option>
+            <option value="Music">Music</option>
+            <option value="Musical Instruments">Musical Instruments</option>
+            <option value="Office Products">Office Products</option>
+            <option value="Outdoor Living">Outdoor Living</option>
+            <option value="Pet Supplies">Pet Supplies</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Software">Software</option>
+            <option value="Tools">Tools</option>
+            <option value="Toys">Toys</option>
+            <option value="TV">TV</option>
+            <option value="VHS">VHS</option>
+            <option value="Watches">Watches</option>
+        </field>
+	</fieldset>
+</form>

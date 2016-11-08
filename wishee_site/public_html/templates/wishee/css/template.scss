@@ -1,0 +1,80 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/foundation_overrides';
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+
+* {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+body {
+    background-color: #fff;
+    color: $text;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: $bold;
+}
+
+p {
+    &.bold {
+        font-weight: $bold;
+    }
+}
+
+.fa {
+    font-family: FontAwesome !important;
+}
+
+#main {
+    padding: $header-height + 20px 0 40px 0;
+}
+
+.fw-banner {
+    position: absolute;
+    left: 0;
+    margin: -20px 0 0 0;
+    width: 100%; height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    & + * {
+        margin-top: 320px;
+    }
+}
+
+.loader {
+    opacity: 0;
+    font-size: 42px !important;
+    color: $slate;
+    -webkit-animation: spin 1.2s linear infinite;
+    animation: spin 1.2s linear infinite;
+    &.visible {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+div#search-products-bar {
+    position: relative;
+    margin-bottom: 30px;
+    input#search_query {
+        padding: 20px 16px;
+        box-sizing: border-box;
+        height: auto;
+        font-size: 18px;
+    }
+}
+
+p.search-label {
+    margin: 25px 0 5px 0;
+    font-weight: $bold;
+}

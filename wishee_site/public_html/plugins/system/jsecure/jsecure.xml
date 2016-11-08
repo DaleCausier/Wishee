@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<extension type="plugin" group="system" version="1.6" method="upgrade">
+	<name>System - jSecure Authentication</name>
+	<creationDate>June 2008</creationDate>
+	<author>Synergy</author>
+	<copyright>This module is released under the GNU/GPL License</copyright>
+	<authorEmail>ajay.lulia@joomlaserviceprovider.com</authorEmail>
+	<authorUrl>www.joomlaserviceprovider.com</authorUrl>
+	<version>1.0.8</version>
+	<description>jSecure Authentication secures the admin login page. Please read readme file /plugins/system/readme.jsecure.html in plugin folder, or on the website.</description>
+	<files>
+		<filename plugin="jsecure">jsecure.php</filename>
+		<filename>404.html</filename>
+		<filename>readme.jsecure.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+	 			<field name="key" type="text" size="50" default="jSecure" label="Key" description="" />
+				<field name="options" type="radio" default="1" label="Redirect Options" description="">
+					<option value="0">Redirect to index page</option>
+					<option value="1">Custom Path</option>
+				</field>
+				<field name="custom_path" type="text" label="Custom Path" default="plugins/system/jsecure/404.html" description=""/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

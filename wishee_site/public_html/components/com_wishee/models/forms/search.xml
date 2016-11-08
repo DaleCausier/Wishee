@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form enctype="multipart/form-data">
+	<fieldset name="search-data" label="Search Fields">
+		<field
+			type="text"
+			name="search_query"
+			label=""
+			size="8"
+			autocomplete="off"
+            autofocus="1"
+			hint="I'm looking for . . ."
+		/>
+	</fieldset>
+    <fieldset name="categories-data" label="Categories" class="fieldset">
+		<field type="list" name="category" default="All" label="Search by category:" description="Description">
+            <option value='All'>All</option>
+            <option value='Apparel'>Apparel</option>
+            <option value='Appliances'>Appliances</option>
+            <option value='Automotive'>Automotive</option>
+            <option value='Baby'>Baby</option>
+            <option value='Beauty'>Beauty</option>
+            <option value='Books'>Books</option>
+            <option value='DVD'>DVD / BluRay</option>
+            <option value='Electronics'>Electronics</option>
+            <option value='GiftCards'>GiftCards</option>
+            <option value='Grocery'>Grocery</option>
+            <option value='HealthPersonalCare'>Health &amp; Personal Care</option>
+            <option value='HomeGarden'>Home / Garden</option>
+            <option value='HomeImprovement'>Home Improvement</option>
+            <option value='Industrial'>Industrial</option>
+            <option value='Jewelry'>Jewelry</option>
+            <option value='KindleStore'>Kindle Store</option>
+            <option value='Kitchen'>Kitchen</option>
+            <option value='Lighting'>Lighting</option>
+            <option value='Luggage'>Luggage</option>
+            <option value='Marketplace'>Marketplace</option>
+            <option value='MobileApps'>MobileApps</option>
+            <option value='MP3Downloads'>MP3 Downloads</option>
+            <option value='Music'>Music</option>
+            <option value='MusicalInstruments'>Musical Instruments</option>
+            <option value='MusicTracks'>Music Tracks</option>
+            <option value='OfficeProducts'>Office Products</option>
+            <option value='OutdoorLiving'>Outdoor Living</option>
+            <option value='Pantry'>Pantry</option>
+            <option value='PCHardware'>PC Hardware</option>
+            <option value='PetSupplies'>Pet Supplies</option>
+            <option value='Shoes'>Shoes</option>
+            <option value='Software'>Software</option>
+            <option value='SportingGoods'>Sporting Goods</option>
+            <option value='Tools'>Tools</option>
+            <option value='Toys'>Toys</option>
+            <option value='UnboxVideo'>Unbox Video</option>
+            <option value='VHS'>VHS</option>
+            <option value='Video'>Video</option>
+            <option value='VideoGames'>Video Games</option>
+            <option value='Watches'>Watches</option>
+        </field>
+	</fieldset>
+</form>

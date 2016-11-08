@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>Wishee</name>
+	<creationDate>2008-05-01</creationDate>
+	<author>BuizKits</author>
+	<authorEmail>jcj1404@gmail.com</authorEmail>
+	<authorUrl>http://ct6008-buizkits.studentsites.glos.ac.uk</authorUrl>
+	<copyright>BuizKits 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>Template for the Wishee website</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>img</folder>
+		<folder>css</folder>
+        <folder>js</folder>
+        <folder>fonts</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+        <position>top-bar</position>
+        <position>main-menu</position>
+        <position>footer-menu</position>
+		<position>footer-info</position>
+	</positions>
+</extension>
