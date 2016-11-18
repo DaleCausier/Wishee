@@ -6,7 +6,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 $this->baseurl = JURI::base(true);
 
 /* Remove Bootstrap JS */
-unset($this->_scripts[JURI::root(true).'/media/jui/js/bootstrap.min.js']);
+#unset($this->_scripts[JURI::root(true).'/media/jui/js/bootstrap.min.js']);
 
 /* Create $template variable to make file path references easier */
 $template = $this->baseurl.'/templates/'.$this->template;
@@ -31,7 +31,7 @@ $config = JFactory::getConfig();
     <head>
         <script type="text/javascript" src="<?php echo $template.'/js/jquery.js'; ?>"></script>
         <jdoc:include type="head" />
-        <link rel="stylesheet" href="<?php echo $template.'/css/foundation.css'; ?>" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $template.'/css/bootstrap.css'; ?>" type="text/css" />
         <link rel="stylesheet" href="<?php echo $template.'/css/font-awesome.css'; ?>" type="text/css" />
         <link rel="stylesheet" href="<?php echo $template.'/css/template.css'; ?>" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -41,32 +41,38 @@ $config = JFactory::getConfig();
         
         <header>
             <div id="top-bar">
-                <div class="row">
-                    <div class="small-12 columns">
-                        <jdoc:include type="modules" name="top-bar" />
-                    </div><!-- /.small-12 -->
-                </div><!-- /.row -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <jdoc:include type="modules" name="top-bar" />
+                        </div><!-- /.col-sm-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
             </div><!-- /#top-bar -->
             
             <div id="main-header">
                 <div id="main-menu">
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <jdoc:include type="modules" name="main-menu" />
-                        </div><!-- /.small-12 -->
-                    </div><!-- /.row -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <jdoc:include type="modules" name="main-menu" />
+                            </div><!-- /.small-12 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
                 </div>
             </div>
         </header>
         
         <div id="main">
-            <div class="row">
-                <div class="small-12 columns">
-                    <jdoc:include type="modules" name="breadcrumb" />
-                    <jdoc:include type="message" />
-                    <jdoc:include type="component" />
-                </div><!-- /.small-12 -->
-            </div><!-- /.row -->
+            <div class="container">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <jdoc:include type="modules" name="breadcrumb" />
+                        <jdoc:include type="message" />
+                        <jdoc:include type="component" />
+                    </div><!-- /.small-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div>
         
         <footer>
@@ -75,7 +81,6 @@ $config = JFactory::getConfig();
         </footer>
         
         <script type="text/javascript" src="<?php echo $template.'/js/bootstrap.min.js'; ?>"></script>
-        <script type="text/javascript" src="<?php echo $template.'/js/foundation.min.js'; ?>"></script>
         <script type="text/javascript" src="<?php echo $template.'/js/what-input.js'; ?>"></script>
         <script type="text/javascript" src="<?php echo $template.'/js/actions.js'; ?>"></script>
         

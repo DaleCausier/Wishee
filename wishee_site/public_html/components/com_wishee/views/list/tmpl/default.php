@@ -30,7 +30,7 @@ $gifts = $this->gift_list;
     <?php foreach ($gifts as $gift) : ?>
     <div class="row" style="margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
 
-        <div class="small-2 columns">
+        <div class="col-sm-2">
             <img
                 style="max-height: 200px; width: auto;"
                 src="<?php echo $gift->product_image_url; ?>"
@@ -38,23 +38,23 @@ $gifts = $this->gift_list;
             />
         </div>
 
-        <div class="small-4 columns">
+        <div class="col-sm-4">
             <?php echo $gift->product_name; ?>
-            <p><a style="margin-top: 10px;" class="button hollow" href="<?php echo $gift->product_store_url; ?>" target="_blank">
+            <p><a style="margin-top: 10px;" class="btn btn-default" href="<?php echo $gift->product_store_url; ?>" target="_blank">
                 Buy on Amazon
             </a></p>
         </div>
 
-        <div class="small-1 columns">
+        <div class="col-sm-1">
             <?php echo $gift->product_category; ?>
         </div>
 
-        <div class="small-1 columns" style="text-align: right;">
+        <div class="col-sm-1" style="text-align: right;">
             <?php echo '&pound;' . substr($gift->product_price, 0, -2) . '.' . substr($gift->product_price, -2); ?>
         </div>
 
-        <div class="small-3 columns" style="text-align: right;">
-            <button type="button" class="button delete-gift-btn" id="<?php echo $gift->gift_id; ?>">
+        <div class="col-sm-3" style="text-align: right;">
+            <button type="button" class="btn btn-danger delete-gift-btn" id="<?php echo $gift->gift_id; ?>">
                 <i class="fa fa-times"></i> Delete
             </button>
         </div>

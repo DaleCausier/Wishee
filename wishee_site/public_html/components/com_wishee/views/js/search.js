@@ -138,29 +138,29 @@ jQuery(document).ready(function(){
             '<div class="row" style="margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 10px;">' +
 
                 /* Product Image */
-                '<div class="small-2 columns">' +
+                '<div class="col-sm-2">' +
                     '<img style="max-height: 200px; width: auto;" src="' + ImgURL + '" alt="' + Attrbs.Title + '" />' +
                 '</div>' +
 
                 /* Product Title */
-                '<div class="small-4 columns">' +
+                '<div class="col-sm-4">' +
                     Attrbs.Title +
                 '</div>' +
 
                 /* Product Category */
-                '<div class="small-1 columns">' +
+                '<div class="col-sm-1">' +
                     ProductGroup +
                 '</div>' +
 
                 /* Product Price */
-                '<div class="small-1 columns" style="text-align: right;">' +
+                '<div class="col-sm-1" style="text-align: right;">' +
                     Price +
                 '</div>' +
 
                 /* Buttons */
-                '<div class="small-3 columns" style="text-align: right;">' +
-                    '<a href="' + Product.DetailPageURL + '" class="button hollow" target="_blank">Buy on Amazon</a>' +
-                    '<a href="#" class="button" id="' + Product.ASIN + '"><i class="fa fa-gift"></i> Add to List</a>' +
+                '<div class="col-sm-3" style="text-align: right;">' +
+                    '<a href="' + Product.DetailPageURL + '" class="btn btn-default" target="_blank">Buy on Amazon</a>' +
+                    '<a href="#" class="btn btn-primary" id="' + Product.ASIN + '"><i class="fa fa-gift"></i> Add to List</a>' +
                 '</div>' +
 
             '</div>'

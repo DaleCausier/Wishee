@@ -7,12 +7,13 @@
 			label=""
 			size="8"
 			autocomplete="off"
+                  class="form-control"
             autofocus="1"
 			hint="I'm looking for . . ."
 		/>
 	</fieldset>
     <fieldset name="categories-data" label="Categories" class="fieldset">
-		<field type="list" name="category" default="All" label="Search by category:" description="Description">
+		<field type="list" class="form-control" name="category" default="All" label="Search by category:" description="Description">
             <option value='All'>All</option>
             <option value='Apparel'>Apparel</option>
             <option value='Appliances'>Appliances</option>

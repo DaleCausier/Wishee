@@ -16,21 +16,27 @@ JHtml::_('behavior.formvalidator');
 <form id="search-form" method="post" name="search-form">
     <div id="search-products-bar">
         <?php foreach ($this->form->getFieldset('search-data') as $field) : ?>
-            <?php echo $field->input; ?>
+            <div class="form-group">
+                <?php echo $field->input; ?>
+            </div>
         <?php endforeach; ?>
     </div>
     <?php foreach ($this->form->getFieldset('categories-data') as $field) : ?>
-        <p class="search-label">
-            <i class="fa fa-binoculars"></i> Refine Search by Category:
-        </p>
-        <?php echo $field->input; ?>
+        <div class="form-group">
+            <p class="search-label">
+                <i class="fa fa-binoculars"></i> Refine Search by Category:
+            </p>
+            <?php echo $field->input; ?>
+        </div>
     <?php endforeach; ?>
-    <button type="submit" id="search-products-button" class="button">
-        <i class="fa fa-search"></i> Search
-    </button>
-    <a href="#" id="clear-search-button" class="button hollow">
-        <i class="fa fa-refresh"></i> Clear
-    </a>
+    <div class="form-group">
+        <button type="submit" id="search-products-button" class="btn btn-primary">
+            <i class="fa fa-search"></i> Search
+        </button>
+        <a href="#" id="clear-search-button" class="btn btn-default">
+            <i class="fa fa-refresh"></i> Clear
+        </a>
+    </div>
 </form>
 
 <hr />

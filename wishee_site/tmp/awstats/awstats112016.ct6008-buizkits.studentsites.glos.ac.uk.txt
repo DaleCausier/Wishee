@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.4 (build 20140726)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2042                
-POS_TIME 2728                
-POS_VISITOR 6129                
-POS_DAY 6543                
-POS_DOMAIN 3275                
-POS_LOGIN 3534                
-POS_ROBOT 3689                
-POS_WORMS 3876                
-POS_EMAILSENDER 4007                
-POS_EMAILRECEIVER 4150                
-POS_SESSION 6747                
-POS_SIDER 6937                
-POS_FILETYPES 4285                
-POS_DOWNLOADS 4532                
-POS_OS 4580                
-POS_BROWSER 4692                
-POS_SCREENSIZE 4843                
-POS_UNKNOWNREFERER 4917                
-POS_UNKNOWNREFERERBROWSER 5004                
-POS_ORIGIN 5086                
-POS_SEREFERRALS 5222                
-POS_PAGEREFS 5366                
-POS_SEARCHWORDS 5514                
-POS_KEYWORDS 5666                
-POS_MISC 2392                
-POS_ERRORS 5725                
-POS_CLUSTER 3390                
-POS_SIDER_404 5820                
+POS_TIME 2722                
+POS_VISITOR 6488                
+POS_DAY 7446                
+POS_DOMAIN 3390                
+POS_LOGIN 3659                
+POS_ROBOT 3814                
+POS_WORMS 4001                
+POS_EMAILSENDER 4132                
+POS_EMAILRECEIVER 4275                
+POS_SESSION 7861                
+POS_SIDER 8057                
+POS_FILETYPES 4410                
+POS_DOWNLOADS 4683                
+POS_OS 4731                
+POS_BROWSER 4875                
+POS_SCREENSIZE 5080                
+POS_UNKNOWNREFERER 5154                
+POS_UNKNOWNREFERERBROWSER 5241                
+POS_ORIGIN 5359                
+POS_SEREFERRALS 5496                
+POS_PAGEREFS 5649                
+POS_SEARCHWORDS 5797                
+POS_KEYWORDS 5949                
+POS_MISC 2385                
+POS_ERRORS 6008                
+POS_CLUSTER 3515                
+POS_SIDER_404 6134                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,64 +46,64 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20161108113448 1008 287712 18982724884830
+LastLine 20161118120446 42 11597 17361921924106
 FirstTime 20161102124325
-LastTime 20161108113448
-LastUpdate 20161108121021 1008 0 1008 0 0
-TotalVisits 17                  
-TotalUnique 8                   
+LastTime 20161118120445
+LastUpdate 20161118120815 42 0 42 0 0
+TotalVisits 51                  
+TotalUnique 22                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 8                   
+MonthHostsUnknown 22                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-PDFSupport 0 0 0
-AddToFavourites 0 5 0
-TotalMisc 0 0 0
-JavaEnabled 0 0 0
-DirectorSupport 0 0 0
-FlashSupport 0 0 0
 QuickTimeSupport 0 0 0
-JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 41 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
 WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
 RealPlayerSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 0 0 0
-1 0 0 0 0 0 0
-2 0 0 0 0 0 0
+1 6 54 764490 0 1 1150
+2 1 1 3291 0 1 1150
 3 0 0 0 0 0 0
 4 0 0 0 0 0 0
-5 0 0 0 0 0 0
+5 7 55 789411 0 0 0
 6 1 4 27806 0 1 0
 7 67 507 6333365 7 9 3586
 8 2 2 3630 1 10 117544
-9 26 251 3137158 5 7 2300
-10 9 89 1127184 2 2 0
-11 14 127 1548802 1 2 0
-12 1 1 339 0 0 0
-13 2 2 678 0 0 0
-14 5 8 29162 0 1 0
-15 1 1 339 0 0 0
-16 4 7 28823 0 2 0
-17 0 0 0 0 0 0
+9 29 254 3147352 5 10 5750
+10 11 91 1133766 2 4 2300
+11 22 165 2335896 2 4 4405
+12 3 10 124275 0 1 1150
+13 11 67 967834 1 2 1150
+14 61 490 5941566 6 11 10048
+15 154 1545 19459575 27 41 13800
+16 47 394 4904955 4 11 3450
+17 3 11 246434 0 0 0
 18 0 0 0 0 0 0
 19 0 0 0 0 0 0
-20 0 0 0 0 0 0
-21 0 0 0 0 1 0
-22 3 3 1017 0 1 0
-23 0 0 0 0 1 0
+20 6 44 544955 0 3 2300
+21 1 1 3291 0 2 1150
+22 39 322 3993725 5 8 2300
+23 15 140 1713146 1 4 2300
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 3
-gb 82 637 7938942
-zz 48 360 4294714
-us 5 5 4647
+zz 316 2866 36367109
+gb 147 1252 15780802
+us 23 39 290852
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -137,17 +137,18 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 10
-woff2 3 231480 0 0
-woff 1 25424 0 0
-png 6 119565 0 0
-php 45 1028291 0 0
-Unknown 54 403242 0 0
-css 227 1644500 0 0
-jpg 9 56160 0 0
+BEGIN_FILETYPES 11
+woff 2 50848 0 0
+woff2 27 1929000 0 0
+jpg 18 112320 0 0
+css 987 7189175 0 0
+png 14 218279 0 0
+map 4 3560 0 0
 gif 1 8238 0 0
-html 32 53113 0 0
-js 624 8668290 0 0
+js 2651 37007164 0 0
+php 134 3978478 0 0
+Unknown 227 1683176 0 0
+html 92 258525 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -155,18 +156,23 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 3
-linux 517 74
+BEGIN_OS ID - Hits - Pages 5
+linux 1412 183
 linuxandroid 125 13
-macosx 360 48
+winnt 157 20
+macosx 2462 269
+winunknown 1 1
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 4
+BEGIN_BROWSER 7
+chrome49.0.2623.75 18 18
+Unknown 1 1
 chrome54.0.2840.68 125 13
 chrome53.0.2785.143 11 8
-chrome54.0.2840.71 861 109
-chrome49.0.2623.75 5 5
+chrome54.0.2840.71 3998 442
+chrome54.0.2840.99 1 1
+firefox36.0 3 3
 END_BROWSER
 
 # Screen size - Hits
@@ -178,21 +184,23 @@ BEGIN_UNKNOWNREFERER 0
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
-BEGIN_UNKNOWNREFERERBROWSER 0
+BEGIN_UNKNOWNREFERERBROWSER 1
+git/2.10.1.windows.1 20161108160434
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 31 31
+From0 91 91
 From1 0 0
-From2 0 0
+From2 1 1
 From3 0 0
-From4 104 971
+From4 394 4065
 From5 0 0
 END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
-BEGIN_SEREFERRALS 0
+BEGIN_SEREFERRALS 1
+live 1 1
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -211,68 +219,101 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 2
-303 14 0
-301 1 417
+BEGIN_ERRORS 5
+503 1 3255
+500 2 4162
+303 36 0
+404 19 0
+301 2 834
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 0
+BEGIN_SIDER_404 1
+/templates/wishee/css/bootstrap.css.map 19 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 8
-82.32.23.156 82 637 7938942 20161108092810
-10.105.0.54 34 340 4235034 20161108113448 20161108112747 /index.php/my-account
+BEGIN_VISITOR 22
+10.105.0.54 146 1433 17600105 20161108171102
+82.32.23.156 97 770 9792633 20161116203100
+10.135.3.31 65 559 8014847 20161116161910
+81.153.5.174 48 472 5862689 20161109222904
+10.105.1.3 29 263 3310462 20161116155649
+10.135.2.110 28 320 3655113 20161108162529
+10.105.0.164 22 219 2778971 20161114154816
+10.135.0.198 8 37 791345 20161118120445 20161118114653 /
+66.249.93.44 8 8 26970 20161118091552
 10.105.0.210 8 11 30179 20161102223038
 10.105.0.24 6 9 29501 20161103221611
-66.249.93.46 2 2 678 20161107084551
-66.249.93.48 1 1 339 20161104110156
+66.249.93.46 4 4 7260 20161116095805
+10.135.3.93 3 14 147500 20161108160434
+50.31.64.15 3 3 9873 20161109222847
+66.249.93.48 3 3 6921 20161114232559
+86.153.76.114 2 10 125480 20161108205134
+66.249.83.76 1 1 3291 20161109090905
+10.135.3.28 1 1 9086 20161116161001
+66.249.83.74 1 1 3291 20161112213444
+45.56.154.83 1 9 116513 20161116145505
+45.56.154.183 1 9 116394 20161112203955
 66.249.93.5 1 1 339 20161103165931
-66.249.93.44 1 1 3291 20161108083927
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 7
+BEGIN_DAY 16
 20161102 8 11 30179 3
 20161103 7 10 29840 5
 20161104 1 1 339 1
 20161105 1 1 339 1
 20161106 1 1 339 1
 20161107 1 1 339 1
-20161108 116 977 12176928 5
+20161108 291 2703 33072458 11
+20161109 29 242 3041268 6
+20161110 1 1 3291 1
+20161111 2 2 6582 2
+20161112 16 149 1829540 4
+20161113 2 2 6582 2
+20161114 17 137 1865109 3
+20161116 99 857 11753989 7
+20161117 1 1 3612 1
+20161118 9 38 794957 2
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 5
+BEGIN_SESSION 6
+5mn-15mn 5
 15mn-30mn 1
-30s-2mn 1
-30mn-1h 1
-5mn-15mn 2
-0s-30s 11
+30s-2mn 5
+30mn-1h 4
+0s-30s 32
+1h+ 3
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
-BEGIN_SIDER 18
-/ 29 42601 16 12
-/index.php/search 15 104970 0 1
-/index.php 13 43800 0 1
-/index.php/my-list 13 97039 0 0
-/index.php/index.php 11 759590 0 0
+BEGIN_SIDER 23
+/ 87 238049 48 29
+/index.php/search 72 511167 0 2
+/index.php 55 186050 0 3
+/index.php/my-list 52 319726 0 4
+/index.php/index.php 52 3504377 0 3
+/index.php/about-wishee 27 268083 0 0
+/templates/wishee/fonts/fontawesome-webfont.woff2 27 1929000 0 0
+/index.php/blog 24 108125 0 1
+/index.php/log-in 17 127559 1 0
 /installation/index.php 11 58069 0 0
-/index.php/blog 6 26937 0 0
-/index.php/log-in 5 37919 0 0
+/administrator/index.php 11 101246 0 0
+/index.php/my-account 11 46591 0 1
+/cpanel 8 72688 2 4
+/index.php/my-account/profile 7 149811 0 0
 /kickstart.php 5 128736 0 0
-/index.php/my-account 5 21050 0 0
-/index.php/about-wishee 5 49565 0 0
-/administrator/index.php 5 38096 0 0
-/templates/wishee/fonts/fontawesome-webfont.woff2 3 231480 0 0
-/cpanel 3 27258 1 2
-/administrator/ 2 9964 0 0
-/index.php/my-account/profile 2 38504 0 0
+/index.php/sign-up 4 35126 0 2
+/administrator/ 4 19928 0 0
+/templates/wishee/css/template.css.map 4 3560 0 0
+/index.php/blog/2-work-begins 2 28789 0 0
+/index.php/blog/3-new-post 2 12211 0 0
+/media/jui/fonts/IcoMoon.woff 2 50848 0 0
 /installation/README.html 1 548 0 0
-/media/jui/fonts/IcoMoon.woff 1 25424 0 0
+/info/refs 1 3300 0 1
 END_SIDER

@@ -11,3 +11,7 @@ defined('_JEXEC') or die('Restricted access');
 ?>
 <h1><?php echo $this->msg; ?></h1>
 <h2><?php echo $this->foo; ?></h2>
+<div class="row">
+  <div class="col-sm-6">6 columns</div>
+  <div class="col-sm-6">6 columns</div>
+</div>
