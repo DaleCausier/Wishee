@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "version": "1.0",
+  "author": "BuizKitz",
+
+  "name": "Wishee Extension",
+  "description": "This extension combines with the Wishee wishlist builder. 
+  It will take the information from the product being displayed on a webpage and add them to your personal wishlist.",
+    
+  "icons": {"16": "images/icon.png"},
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://*.google.com/", 
+    "https://*.google.com/"
+  ]
+}

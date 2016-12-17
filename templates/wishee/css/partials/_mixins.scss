@@ -1,0 +1,21 @@
+@mixin wishee-gradient-bg() {
+    background: #591c56; /* Old browsers */
+    background: -moz-linear-gradient(top,  #591c56 0%, #2b5d74 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #591c56 0%,#2b5d74 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #591c56 0%,#2b5d74 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#591c56', endColorstr='#2b5d74',GradientType=0 ); /* IE6-9 */
+} /* Declare with:  @include wishee-gradient-bg(); */
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
+}

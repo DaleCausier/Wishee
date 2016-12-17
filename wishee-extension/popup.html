@@ -1,0 +1,148 @@
+<html>
+    
+<head>
+    <title>Wishee Chrome Extension</title>
+    <script src="thirdParty/jquery-3.1.1.min.js"></script>
+    <script src="popup.js"></script>
+    <style>
+        body{
+            width: 400px;
+            height: 520px;
+            margin: 0px;
+            overflow: hidden;
+            font-family: 'Quicksand', sans-serif;
+        }
+        .header{
+            width: 100%;
+            background-color: #591c56;
+        }
+        .footer{
+            width: 100%;
+            height: 50px;
+            background-color: #591c56;
+            position: fixed;
+            bottom: 0px;
+        }
+        .header .wisheelogo{
+            height: 40px;
+            width: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 5px;
+        }
+        #wisheelogocontainer{
+            height: 50px;
+        }
+        .footer .buizkitslogo{
+            width: 75px;
+            float: right;
+        }
+        #buizkitsimagecontainer{
+            float: left;
+            padding-top: 16px;
+            width: 44%;
+        }
+        #wisheeinputform{
+            display: none;
+            padding: 10px;
+            align-content: center;
+        }
+        .purplebanner{
+            background-color: #591c56;
+            height: 10px;
+            width: 100%;
+        }
+        .productimage
+        {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            margin-top: 5px;
+        }
+        .forminput{
+            width: 100%;
+            border-radius: 3px;
+            border: 1px solid #999;
+            height: 30px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        ::-webkit-input-placeholder {
+           text-align: center;
+        }
+
+        :-moz-placeholder { /* Firefox 18- */
+           text-align: center;  
+        }
+
+        ::-moz-placeholder {  /* Firefox 19+ */
+           text-align: center;  
+        }
+
+        :-ms-input-placeholder {  
+           text-align: center; 
+        }
+        .footertext{
+            padding-left: 10px;
+            color: white;
+            float: left;
+            width: 50%;
+            font-size: 10px;
+            margin: 0px;
+            padding: 15px 10px;
+        }
+        .submitbtn{
+            width: 100%;
+            background-color: #2d5e78;
+            height: 40px;
+            color: #fff;
+            border: none;
+            border-radius: 3px; 
+            margin-top: 5px;
+        }
+        #productresults{
+            overflow-y: scroll;
+            height: 400px;
+            width: 100%;
+            color: #000;
+        }
+        ::-webkit-scrollbar { 
+            display: none; 
+        }
+    </style>
+</head>
+    
+<body>
+    
+    <div id="wisheeinputpage">
+        <div class="header">
+            <div class="purplebanner"></div>
+                <div id="wisheelogocontainer">
+                    <img class="wisheelogo" src="Images/wishee.png" align="center"/>
+                </div>            
+            <div class="purplebanner"></div>
+        </div>
+    
+        <form id="wisheeinputform">
+            <img class="productimage" src="Images/default.png"/><br><br>
+            <input class="forminput" type="text" placeholder="Enter item Title" name="title"><br>
+            <input class="forminput" type="text" placeholder="Enter item Description" name="description"><br>
+            <input class="forminput" type="text" placeholder="Enter item Price" name="price"><br>
+            <button class="submitbtn">Add to Wishlist</button>
+        </form>
+        
+        <div id="productresults">
+        </div>
+
+        <div class="footer">
+            <p class="footertext">All Rights Reserved - Wishee 2016.
+    Wishee has been developed by BuizKitz.</p>
+            <div id="buizkitsimagecontainer">
+                <img class="buizkitslogo" src="Images/buizkits.png"/>
+            </div>        
+        </div>
+    </div>
+</body>
+    
+</html>

@@ -1,0 +1,27 @@
+footer {
+    display: none;
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%; height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+}
+
+.full-width.footer {
+    background-color: $purple;
+	color:white;
+}
+
+.footer-left {
+    padding: 2% 0 2% 0;
+	float: left;
+    width: 30%;
+    font-size: .7em;
+}
+
+.footer-left p {
+    margin: 0 0 1% 0;
+}
